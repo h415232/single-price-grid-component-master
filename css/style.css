@@ -1,4 +1,61 @@
-##### TAG SELECTOR #####
+/* TAG Selector */
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+    overflow-x: hidden;
+    font-family: 'Karla', sans-serif;
+}
 
-##### CLASS SELECTOR #####
+/* CARD Style */
+.card {
+    width: 54rem; /* 50 rem + 1rem left pad + 1rem bod pad*/
+    height: 30rem; /* 28rem + 1rem top pad + 1rem bot pad*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+    border-radius: 1rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 
+/* CARD TOP Style */
+.card-top {
+    width: 50rem;
+    height: 10rem;
+    padding: 1rem 2rem;
+}
+
+/* CARD BOTTOM Style */
+.card-bottom {
+    width: auto;
+    height: 20rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.card-bottom-left {
+    width: 23rem;
+    padding: 1rem 2rem;
+    background-color: #29B3B1;
+    justify-content: flex-start;
+}
+
+.card-bottom-right {
+    width: 23rem;
+    padding: 1rem 2rem;
+    background-color: #48BEBD;
+}
+
+/* FOOTER Style */
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
